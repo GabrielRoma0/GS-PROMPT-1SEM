@@ -17,8 +17,8 @@ session = PromptSession(style=Style.from_dict({"prompt": "#06B6D4 bold"}))
 
 def show_banner():
     """Exibe banner ASCII colorido no início."""
-    linha1 = pyfiglet.figlet_format("ConnectSat", font="ansi_shadow")
-    linha2 = pyfiglet.figlet_format("Mission Control", font="small")
+    linha1 = pyfiglet.figlet_format("ConnectSat", font="slant")
+    linha2 = pyfiglet.figlet_format("Mission Control AI", font="small")
 
     console.print(Text(linha1, style="bold #06B6D4"))
     console.print(Text(linha2, style="bold #A855F7"))
